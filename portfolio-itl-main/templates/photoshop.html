@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <style>
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      h1{
+        text-align:center;
+        margin: 50;
+      }
+      .text-glow {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+        color: white;
+        font-size: 30px;
+        text-align: center;	  	
+      }
+    </style>
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <title>Photoshop</title>
+  </head>
+  <body>
+    <header class="header">
+      <a class="list-item__link" href="{{ url_for('index')}}">HOME</a>
+    </header>
+    <div class="text-glow">
+      <h1>SOME OF MY WORKS</h1>
+    </div>
+    <br>
+    <img
+    class="project__img"
+    src="../static/img/Thumbnail1.jpg"
+    alt="SQL"
+    width="500"
+    />
+    <br>
+    <img
+        class="project__img"
+        src="../static/img/Thumbnail2.jpg"
+        alt="SQL"
+        width="500"
+    />
+    <br>
+    <img
+        class="project__img"
+        src="../static/img/Thumbnail3.jpg"
+        alt="SQL"
+        width="500"
+    />
+    <br>
+    <img
+        class="project__img"
+        src="../static/img/Thumbnail4.jpg"
+        alt="SQL"
+        width="500"
+    />
+    <br>
+    <hr>
+    <br>
+    <section class="" id="social">
+      <footer>
+        <p style="text-align: center;">I MIEI SOCIAL:</p>
+        <p style="text-align: center;">
+          <a class="social__link" style="display: inline;" href="https://www.instagram.com/gabriele.graphics/">Instagram</a>
+          &nbsp;
+          <a class="social__link" style="display: inline;" href="https://www.youtube.com/@scienceinventors">Youtube</a>
+          &nbsp;
+          <a class="social__link" style="display: inline;" href="mailto: scienceinventors@gmail.com">Email</a> 
+        </p>
+        <br>
+      </footer>
+    </section>
+  </body>
+</html>
