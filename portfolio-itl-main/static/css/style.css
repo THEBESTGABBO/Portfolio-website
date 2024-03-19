@@ -3,6 +3,7 @@ body::-webkit-scrollbar {
   width: 0;
 }
 
+
 html {
   scroll-behavior: smooth;
 }
@@ -12,7 +13,7 @@ body {
   padding: 0 3%;
   font-family: "Mulish", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 3vmin;
   line-height: 20px;
   letter-spacing: 0.2em;
   background: linear-gradient(180deg, #392657 0%, rgba(57, 38, 87, 0.8) 100%);
@@ -28,7 +29,7 @@ p {
 h1,
 h2 {
   font-weight: 700;
-  font-size: 60px;
+  font-size: 5vw;
 }
 
 img {
@@ -56,12 +57,12 @@ ul {
 
 .main-list {
   display: flex;
-  gap: 150px;
+  gap: 7vw;
 }
 
 .list-item__link {
   position: relative;
-  font-size: 26px;
+  font-size: 2.5vw;
   font-weight: 700;
   display: flex;
   flex-direction: column;
@@ -72,10 +73,10 @@ ul {
   position: absolute;
   transition: 0.2s;
   content: "";
-  border-radius: 10px;
+  border-radius: 2px;
   width: 55%;
-  height: 3px;
-  bottom: -12px;
+  height: 10%;
+  bottom: -0.5em;
   background: #a178b9;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -90,15 +91,15 @@ ul {
   justify-content: center;
   align-items: center;
   background-image: url(../img/developer.png);
-  background-size: cover;
-  padding: 10vh 10vw 80vh 10vw;
-  background-position: center bottom;
+  background-size: 140vw 70vw;
+  padding: 12vw 20vw;
+  background-position: center;
   gap: 20px;
 }
 
 .home__title {
   letter-spacing: 0.3em;
-  font-size: 70px;
+  font-size: 8.5vw;
   text-align: center;
   color: #a178b9;
   line-height: 1;
@@ -107,17 +108,17 @@ ul {
 
 .home__subtitle {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 2.5vw;
   text-align: center;
   line-height: 1;
 }
 
 .about {
-  margin-bottom: 200px;
+  margin-bottom: 20vw 20vw;
 }
 
 .about__title {
-  font-size: 60px;
+  font-size: 5vw;
   position: relative;
   text-align: left;
   color: #cc8bf2;
@@ -126,7 +127,7 @@ ul {
   display: flex;
   flex-direction: column;
   width: fit-content;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 
 .about__title::after {
@@ -146,12 +147,12 @@ ul {
 }
 
 .info-block__text {
-  width: 40%;
+  width: 50vw;
 }
 
 .info-block__img {
   align-self: center;
-  width: 300px;
+  width: 30vw;
 }
 
 .skills {
@@ -162,7 +163,7 @@ ul {
 }
 
 .skills__title {
-  font-size: 60px;
+  font-size: 5vw;
   position: relative;
   text-align: left;
   color: #cc8bf2;
@@ -274,14 +275,14 @@ ul {
 }
 
 .feedback {
-  margin-bottom: 200px;
+  margin-bottom: 20vw 20vw;;
   display: flex;
   flex-direction: column;
   gap: 80px;
 }
 
 .feedback__title {
-  font-size: 60px;
+  font-size: 5vw;
   position: relative;
   text-align: left;
   color: #cc8bf2;
@@ -317,7 +318,7 @@ ul {
 }
 
 .form__input {
-  width: 100%;
+  width: 60vw;
   font: inherit;
   background: #392657;
   border: 2px solid #a178b9;
@@ -345,7 +346,7 @@ ul {
   background: linear-gradient(111.97deg, #CC8BF2 35.63%, rgba(204, 139, 242, 0) 150.16%);
   filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
   padding: 15px 30px;
-  border-radius: 20px;
+  border-radius: 25px;
   border: none;
   cursor: pointer;
 }
